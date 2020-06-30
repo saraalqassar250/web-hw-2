@@ -1,0 +1,226 @@
+body, html{ 
+    margin: 0em;
+    height: 100%;
+    background-color:#979dac;
+
+}
+
+.menu{
+    width: 100%;
+   background-color: #001233;
+   overflow: auto;
+
+}
+
+.menu ul{
+    padding: 0;
+    margin: 0em;
+    list-style: none;
+    line-height: 60px;
+}
+.menu li{
+    float: left;
+    color: white;
+}
+.menu ul li a{
+    background-color: #001233;
+    color: white;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+letter-spacing: 20px;
+padding-left: 50px;
+padding-right: 10px;
+padding-top: 5px;
+}
+.menu li a :hover{
+    opacity: 1px ;
+    font-size: 19px; 
+    color: #979dac;
+}
+
+.search-form{
+    padding-left:auto ;
+    margin-top: 15px ;
+   float: right;
+   margin-right:100px;}
+
+input[type=text]{
+padding:8px;
+border-radius: 6px;
+font-size: 13px;
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+button{
+    float: right;
+    background-color: #e6beae;  
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 8px;
+    margin-top: 2spx;
+    margin-right:10px;
+    padding-left:auto ;
+}
+
+@keyframes fade  {
+    0% {
+    opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+  }
+  #fade img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  }
+
+.flex-container {
+    display:  inline flex;
+    flex-direction: column row-reverse;
+    flex-wrap: wrap;
+  }
+
+
+.bottom{
+    position: relative;
+        display: inline-block;
+        color: white;
+        width: 100%;
+        height: 100%;
+       text-shadow: #001233;
+       text-align: center;
+}
+
+.img{
+    width: 1864px;
+    height: 1000px;
+
+}
+.bottom .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;}
+    
+    
+
+    
+
+
+/*  
+.bottom{
+height: 100%;
+width: 100%;
+}
+  */
+.Tittle h2{
+background-color: #0b132b;
+height: 80%;
+text-align: center;
+margin: 0px;
+padding: 8px;
+color: white;
+
+  }
+
+
+.search-bar{
+    width: 120;
+    overflow: hidden;
+    background-color: #001233;
+    height: 10%;
+    padding: right auto;
+}
+
+.home {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.aboutus{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+}
+
+
+.account{
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+}
+
+
+.search-bar a:hover{
+    background-color:#979dac ;
+    color: white;
+}
+
+.search-bar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;}
+ 
+
+footer{
+    text-align: center;
+    color: white;
+    background-color:#5c6b73; 
+    width: 100%;
+    height: 5%;
+    padding: 8px;
+}
+
+
+
+.logo{
+    margin: 0;
+    width: 70px;
+    height: 70px;
+    float:left
+}
+
+
+
+.enter {
+    background-color: #001233;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 6px;
+}
